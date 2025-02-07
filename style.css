@@ -1,0 +1,272 @@
+/* Body */
+
+body{
+    background-image:url('images/background.jpg');
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 1.3;
+}
+
+
+/* Header */
+
+header{
+    box-shadow: 0px 10px 40px #222b1f
+	
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #49a146;
+}
+  
+header li {
+    display: inline-block;
+    margin-block: auto;
+    margin-left: 10px;
+}
+  
+header li a {
+    display: block;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Georgia;
+}
+  
+header li a:hover{
+    background-color: #326e31;
+}
+
+header a.active{
+    background-color: #f39640;
+}
+
+header img{
+    position: relative;
+    height:60px;
+    margin-inline: 20px;
+    margin-block: 15px;
+    display: inline-block;
+}
+
+
+/* Side-menu*/
+
+.side-menu ul{
+  list-style-type: none;
+  margin:0;
+  margin-top:7%;
+  padding: 0;
+  width: 18%;
+  position: fixed;
+  height: auto;
+  overflow:hidden;
+  border-radius:0px 20px 20px 0px;
+}
+.bb a{
+  display: block;
+  color: #000;
+  background-color:rgba(0,0,0,0.6);
+  padding: 8px 16px;
+  text-decoration: none;
+  color:white;
+  font-family:Georgia;
+  border-bottom: 1px solid white;
+  
+}
+.side-menu li a{
+  display: block;
+  color: #000;
+  background-color:rgba(0,0,0,0.6);
+  padding: 8px 16px;
+  text-decoration: none;
+  color:white;
+  font-family:Georgia;
+  
+}
+
+.side-menu li:last-child {
+	border-bottom: none;
+}
+
+.side-menu li a:hover{
+  background-color:rgba(0,0,0,0.8);
+  color: white;
+}
+
+.side-menu-index ul{
+  list-style-type: none;
+  margin:0;
+  margin-top:7%;
+  padding: 0;
+  width: 18%;
+  position: fixed;
+  height: auto;
+  overflow:hidden;
+  border-radius:0px 20px 20px 0px;
+}
+.side-menu-index li a{
+  display: block;
+  color: #000;
+  background-color:rgba(0,0,0,0.6);
+  padding: 8px 16px;
+  text-decoration: none;
+  color:white;
+  font-family:Georgia;
+}
+
+
+.side-menu-index li a:hover{
+  background-color:rgba(0,0,0,0.8);
+  color: white;
+}
+
+.side-menu-kerala ul{
+  list-style-type: none;
+  margin:0;
+  margin-top:7%;
+  padding: 0;
+  width: 18%;
+  position: fixed;
+  height: auto;
+  overflow:hidden;
+  border-radius:0px 20px 20px 0px;
+}
+.side-menu-kerala li a{
+  display: block;
+  color: #000;
+  background-color:rgba(0,0,0,0.6);
+  padding: 8px 16px; 
+  text-decoration: none;
+  color:white;
+  font-family:Georgia;
+}
+
+.side-menu-kerala li a:hover{
+  background-color:rgba(0,0,0,0.8);
+  color: white;
+}
+/* Main */
+
+section{
+    margin: auto;
+    max-width: 1400px;
+    background-color: #f2e9f3;
+	padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #222b1f;
+	margin-left:20.30%;
+	margin-right:20%;
+	display:block;
+	align-items:center;
+}
+
+p{
+	text-align:justify;
+}
+section::after { /* On redimentionne la section pour qu'elle entoure les images */
+	content:"";
+	display: block;
+	clear: both;
+}
+
+article{
+    margin-left: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia;
+    display: block;
+    background-color: #49a146;
+    max-width: 1000px;
+    margin: auto;
+    margin-block: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #222b1f;
+	margin-left:23.30%;
+	margin-right:23%;
+}
+
+h2{
+    font-family: Georgia;
+    font-size: 35px;
+}
+
+h3{
+    font-family: Georgia;
+    font-size: 25px;
+}
+
+
+
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-width: 1px;
+    max-width: 1750px;
+    min-width: 500px;
+    border-color: #f2e9f3;
+}
+
+
+figure.droite{
+    float: right;
+    display: block;
+}
+figure.droite > img{
+	width: 250px;
+}
+
+figure.gauche{
+    float: left;
+    display: block;
+}
+
+figure.gauche > img{
+	width: 250px;
+}
+
+video{
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+span.spanvid{
+	display:block;
+	text-align:center;
+}
+img.page-garde{
+    display: block;
+    margin: auto;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #49a146;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+footer > div{
+    width: 300px;
+    text-align: center;
+    margin-inline: 20px;
+    padding-block: 10px;
+    margin-block: auto;
+}
